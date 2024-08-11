@@ -41,18 +41,6 @@ const App = () => {
             <img src={woman} alt="Woman with camera"/>
           </div>
           <Theme/>
-          {/* <div className="light-dark">
-            <div>
-              <input type="checkbox" class="checkbox" id="checkbox"/>
-              <label for="checkbox" class="checkbox-label">
-              <img className="sun" src={sun} alt="sun Logo" />
-              <img className="moon" src={moon} alt="moon Logo" />
-                <span class="ball"></span>
-              </label>
-            </div>
-          </div> */}
-
-
         </div>
 
       </div>
@@ -63,6 +51,7 @@ const App = () => {
         <div className="social-login">
         <div><Login /></div>
         </div>
+        <div style={{width: '422.64px'}}>
         <form className="login-form" onSubmit={handleSubmit}>
           <label>Email address</label>
           <input type="email" placeholder="johndoe@gmail.com" value={email} onChange={(e) => setEmail(e.target.value)}/>
@@ -74,12 +63,10 @@ const App = () => {
           </div>
           <button type="submit" className="sign-in-btn">Sign In</button>
         </form>
+        </div>
         <p className="register-link">
           Don't have an account? <a href="/">Register here</a>
         </p>
-        {/* <div className="social-icons">
-          <img src={icon} alt="social icons" />
-        </div> */}
       </div>
     </div>
 );
