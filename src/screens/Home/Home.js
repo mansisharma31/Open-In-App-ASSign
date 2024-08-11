@@ -51,7 +51,7 @@ const App = () => {
         <div className="social-login">
         <div><Login /></div>
         </div>
-        <div style={{width: '422.64px'}}>
+        <div style={{width: '423.64px'}}>
         <form className="login-form" onSubmit={handleSubmit}>
           <label>Email address</label>
           <input type="email" placeholder="johndoe@gmail.com" value={email} onChange={(e) => setEmail(e.target.value)}/>
