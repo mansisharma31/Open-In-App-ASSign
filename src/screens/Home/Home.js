@@ -52,7 +52,8 @@ const App = () => {
         <div><Login /></div>
         </div>
         <div style={{width: '423.64px'}}>
-        <form className="login-form" onSubmit={handleSubmit}>
+        <form className="login-form" action="http://myserver.com/mypage">
+        {/* <form className="login-form" onSubmit={handleSubmit}> */}
           <label>Email address</label>
           <input type="email" placeholder="johndoe@gmail.com" value={email} onChange={(e) => setEmail(e.target.value)}/>
           <label>Password</label>
