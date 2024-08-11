@@ -1,3 +1,26 @@
+:root {
+  --primary-bg-color: #ecf0f1;
+  --primary-text-color: #000000;
+  --secondary-bg-color: #4b59f0;
+  --secondary-text-color: #ffffff;
+  --accent-color: #6571f1;
+  --button-bg-color: #4b59f0;
+  --link-color: #346BD4;
+  --gray-text-color: #858585;
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  --primary-bg-color: #212529;
+  --primary-text-color: #ffffff;
+  --secondary-bg-color: #4b59f0;
+  --secondary-text-color: #000000;
+  --accent-color: #6571f1;
+  --button-bg-color: #6571f1;
+  --link-color: #5a87d4;
+  --gray-text-color: #c1c1c1;
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +59,6 @@
     transform: rotate(360deg);
   }
 }
+
+
+
